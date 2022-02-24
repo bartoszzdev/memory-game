@@ -20,6 +20,8 @@ body {
 
 #score {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h3 {
@@ -100,6 +102,10 @@ img:active {
     }
 
     h3 {
-        margin: 0px 0;
+        margin: 0;
+    }
+
+    #message {
+        margin: 5px 1%;
     }
 }
